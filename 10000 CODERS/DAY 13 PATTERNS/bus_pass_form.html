@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Application Form</title>
+</head>
+<body>
+    <center>
+        <img src="tgrtc logo.jpg" alt="" width="50">
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION <br>GENERAL BUS PASS APPLICATION</h1>
+    </center>
+    <form action="response.html" enctype="multipart/form-data">
+    <fieldset>
+        <legend><b>Applicant Details</b></legend>
+        
+        <table>
+        
+            <tr>
+                <td><label for="name">Name<span>*</span></label>
+                    <input type="text" id="name" name="name" required pattern="[a-zA-Z]{,20}">
+                    <p>(Maximum characters:20)</p>
+                </td>
+                <td> <label for="father">Father's/Guardian's Name <span>*</span></label>
+                    <input type="text" name="father" id="father" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of birth<span>*</span></label>
+                    <input type="date" id="dob" name="dob" required>
+                </td>
+                <td> <label for="">Gender <span>*</span></label>
+                    <input type="radio" name="gender" id="male" >
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Age As on</label>
+        
+                    <input type="number" id="age" size=1>
+                    <label for="age">Year(s)</label>
+                    <input type="number" id="age">
+                    <label for="age">Month(s)</label>
+                    <input type="number" id="age">
+                    <label for="age">Day(s)</label>
+                </td>
+                <td>  <label for="aadhar">Aadhaar No:</label>
+                    <input type="text" name="aadhar" id="aadhar">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="whatsapp">whatsapp<span>*</span></label>
+                    <input type="text" id="whatsapp" name="dob" required>
+                <td>  <label for="email">Email No<span>*</span></label>
+                    <input type="text" name="email" id="email" required pattern="[a-z0-9.]+@gmail\.com">
+                </td>
+            </tr>
+
+            <tr>
+               <td><label for="photo">Photo</label>
+             <input type="file" id="photo" name="photo" required accept=".png,.jpg,.jpeg">
+            </td>
+            </tr>    
+        </table>
+    
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Residential Address Details </b></legend>
+       
+            <table>
+                <tr>
+                    <td> <label for="address">Applicant's Address</label>
+                        <textarea name="adress" id="address"></textarea>
+                        <p>(Maximum characters:20)</p>
+                    </td>
+                    <td>
+                        <label for="district">District</label>
+                        <select name="district" id="district">
+                            <option value="Hyderabad">HYDERABAD</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mandal">Mandal</label>
+                        <select name="mandal" id="mandal">
+                            <option value="Hyderabad">HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td> <label for="village">Village</label>
+                        <select name="village" id="village">
+                            <option value="Hyderabad">HYDERABAD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">Pincode <span>*</span></label>
+                        <input type="text" id="pincode" required name="pincode">
+                    </td>
+                </tr>
+        </table>    
+       
+    </fieldset>
+    <fieldset>
+        <legend><b>Pass Type Details </b></legend>
+        
+            <label for="city">City <span>*</span></label>
+            <select name="City" id="city">
+                <option value="HYDERABAD">HYDERABAD</option>
+            </select>
+
+            <br>
+            <label for="type">Passtype <span>*</span></label>
+            <select name="type" id="type">
+                <option value="---Select---" selected disabled>---Select---</option>
+                <option value="">GREATER PASS</option>
+                <option value="">GENERAL ORDINARY ROUTE PASS MTLY</option>
+                <option value="">GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+                <option value="">ORDINARY PASS</option>
+                <option value="">METRO EXPRESS PASS</option>
+                <option value="">METRO DELUXE PASS</option>
+                
+            </select>
+      
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Mode of Payment & Pass Collection </b></legend>
+      
+            <label for="mode">Select Payment Mode <span>*</span></label>
+            <select name="mode" id="mode">
+                <option value="Select Payment Mode" selected disabled>Select Payment Mode</option>
+                <option value="PAYMENT AT COUNTER">PAYMENT AT COUNTER</option>
+            </select>
+            <br>
+            <label for="mode">Pass Delivery Mode <span>*</span></label>
+            <select name="mode" id="mode">
+                <option value="Select Pass Delivery Mode" selected disabled>Select Pass Delivery Mode</option>
+                <option value="AT COUNTER">AT COUNTER</option>
+            </select>
+            <br>
+            <label for="center">Center at which you want to collect pass <span>*</span></label>
+            <select name="center" id="center">
+                <option value="---Select---" selected disabled>---Select---</option>
+                <option value="">RTC KUKATPALLY -- HYD [18-12-2024]</option>
+                <option value="">RTC ABIDS -- HYD [18-12-2024]</option>
+                <option value="">RTC AFZALGUNJ -- HYD [18-12-2024]</option>
+                <option value="">RTC AIRPORT -- HYD [18-12-2024]</option>
+                <option value="">RTC ARAMGHAR -- HYD [18-12-2024]</option>
+                <option value="">RTC BALA NAGAR -- HYD [18-12-2024]</option>
+                <option value="">RTC CBS -- HYD [18-12-2024]</option>
+                <option value="">RTC CHARMINAR -- HYD [18-12-2024]</option>
+                <option value="">RTC DILSHUKNAGAR -- HYD [18-12-2024]</option>
+                <option value="">RTC GHATKESAR -- HYD [18-12-2024]</option>
+                <option value="">RTC HAYATHNAGAR -- HYD [18-12-2024]</option>
+                <option value="">RTC JBS -- HYD [18-12-2024]</option>
+                <option value="">RTC KACHIGUDA -- HYD [18-12-2024]</option>
+                <option value="">RTC KOTI -- HYD [18-12-2024]</option>
+                <option value="">RTC KPHB -- HYD [18-12-2024]</option>
+                <option value="">RTC SHAMSHABAD -- HYD [18-12-2024]</option>
+                <option value="">RTC UPPAL -- HYD [18-12-2024]</option>
+                <option value="">RTC ECIL -- HYD [18-12-2024]</option>
+
+                
+            </select>
+       
+
+    </fieldset>
+    <center><img src="otp.png" alt="">
+        <br>
+        <input type="text"><br>
+        <input type="submit" ></center>
+    </form>
+</body>
+</html>
