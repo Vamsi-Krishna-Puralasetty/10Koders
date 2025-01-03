@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainhead{
+    background-color: white;
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    height: 20px;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+.head1{
+   
+    display: inline-block;
+}
+.head2{
+    display: inline-block;
+    position: absolute;
+    right:20px ;
+}
+.anchor{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainimage{
+    position: relative;
+}
+#centertext{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    color: white;
+    font-size: xx-large;
+}
+span{
+    background-color: gray;
+    height: 10px;
+    width: 30px;
+    font-size: 50px;
+}
+.projects{
+    padding: 20px;
+}
+
+.maincont{
+    position: relative;
+    padding: 20px;
+    width: 95%;
+    height: 500px;
+    margin: 20px;
+}
+.img1{
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    margin: 7px;
+}
+.house1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
