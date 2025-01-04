@@ -1,0 +1,76 @@
+/*  .container>.box>p
+    .container .box>p
+    .container>.box p */
+.h1{
+    color: green;
+}
+/* Task-1 */
+.container .box p{
+    padding: 20px;
+    color: red;
+}
+/* Task-2 */
+/* .section>.content p
+    .section .content p
+    .section>.content>p */
+.section>.content>p{
+    margin: 15px;
+    color: red;
+}
+/* Task-3 */
+/* .card-header+.card-body p 
+    .card-header~.card-body>p
+    .card-header~.card-body p
+    */
+.card-header+.card-body>p{
+    border: 2px solid red;
+}
+/* Task-4 */
+/*  .navbar ul li
+    .navbar>ul li
+    .navbar>ul>li */
+.navbar ul>li{
+    background-color: lightblue;
+}
+/* Task-5 */
+/* .header>h1 */
+.header h1{
+    margin-top: 20px;
+    color: red;
+}
+/* Task-6 */
+/* .footer>span */
+.footer span{
+    padding: 10px;
+    color: red;
+}
+/* Task-7 */
+/* .main-content .content p
+    .main-content>.content>p
+    .main-content .content>p */
+.main-content>.content p{
+    border: 1px solid black;
+}
+/* Task-8 */
+/* .nav>ul li~li 
+    .nav>ul>li~li
+    .nav ul li~li
+    .nav ul>li~li
+    .nav>ul li+li 
+    .nav>ul>li+li
+    .nav ul li+li*/
+.nav ul>li+li{
+    margin-right: 15px;
+    background-color: blue;
+}
+/* Task-9 */
+/* .gallery .photo */
+.gallery>.photo{
+    background-color: lightgrey;
+}
+/* Task-10 */
+/* .footer span */
+.footer>span{
+    border-radius: 5px;
+    border: 3px solid gold;
+}
