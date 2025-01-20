@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 50px;
+}
+.box-px{
+    width: 200px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.parent-percent{
+    width: 50vw;
+    height: 200px;
+    background-color: black;
+}
+.child-percent{
+    width:50%;
+    background-color: rgb(27, 226, 226);
+}
+
+.rem-paragraph{
+    font-size: 2rem;
+}
+.parent-em{
+    font-size: 16px;
+}
+.child-em{
+    font-size: 1.5em;
+}
+.box-vw{
+    background-color: darkgray;
+    width: 50vw;
+}
+.box-vh{
+    background-color: rgb(231, 187, 13);
+    height: 25vh;
+}
+.containervmin{
+    border: 2px solid ;
+    width: 20vw;
+}
+.square-vmin{
+   
+    background-color: crimson;
+    width: 20vmin;
+    height: 20vmin;
+}
+.square-vmax{
+    background-color: darkorchid;
+    width: 20vmax;
+    height: 20vmax;
+}
+.parent-relative{
+    border: 2px solid;
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+.child-absolute{
+    background-color: chocolate;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+.parent-font{
+    width: 50vw;
+    height: 50vh;
+    background-color: darkcyan;
+    font-size: 50px;
+}
+.child-fon{
+    font-size: inherit;
+}
