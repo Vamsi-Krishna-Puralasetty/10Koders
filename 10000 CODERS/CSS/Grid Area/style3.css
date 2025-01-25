@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    display: grid;
+    gap: 10px;
+    height: 100vh;
+    grid-template-areas: 
+    'e a a c c'
+    'f a a d d'
+    'g i b k l'
+    'h j b m n';
+
+}
+.item-1{
+    grid-area: a;
+    background-image: linear-gradient(to top, rgb(187, 141, 185), rgb(205, 106, 185),rgb(219, 91, 198));
+}
+.item-2{
+    grid-area: b;
+    background-image: linear-gradient(to top, rgb(187, 141, 185), rgb(205, 106, 185),rgb(219, 91, 198));
+}
+.item-3{
+    grid-area: c;
+    background-image: linear-gradient(to top, aqua, rgb(0, 191, 255),rgb(34, 189, 216));
+}
+.item-4{
+    grid-area: d;
+    background-image: linear-gradient(to top, aqua, rgb(0, 191, 255),rgb(34, 189, 216));
+}
+.item-5{
+    grid-area: e;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-6{
+    grid-area: f;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-7{
+    grid-area: g;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-8{
+    grid-area: h;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-9{
+    grid-area: i;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-10{
+    grid-area: j;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-11{
+    grid-area: k;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-12{
+    grid-area: l;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-13{
+    grid-area: m;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+.item-14{
+    grid-area: n;
+    background-image: linear-gradient(to top,rgb(209, 167, 151), rgb(223, 120, 207),pink);
+}
+
+@media screen and (max-width:700px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'a b'
+        'c d'
+        'e f'
+        'g h'
+        'i j'
+        'k l'
+        'm n';
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        'g'
+        'h'
+        'i'
+        'j'
+        'k'
+        'l'
+        'm'
+        'n'
+        ;
+    }
+    
+}
