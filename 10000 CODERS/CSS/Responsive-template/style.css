@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    
+  height: 100%;
+  
+}
+
+    
+
+header{
+    color: black;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;  
+
+}
+header>nav{
+    color: black;
+    text-align: center;
+    padding: 8px;
+    
+    flex: 1;
+    
+}
+.bg-container{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/25/full/1729876827-0294.jpg?im=FeatureCrop");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-text>span{
+    font-size: 32px;
+    color: #fff;
+    line-height: 80px;
+}
+.img-text>span:nth-child(1){
+    font-size: 64px;
+    color: #fff;
+
+}
+.bg-container>img{
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+
+}
+nav:hover{
+    background-color: black;
+    color: #fff;
+    
+    
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightcoral;
+    /* background-image: url('wedding_couple2.jpg'); */
+    
+    flex-direction: column;
+    
+
+}
+
+.container1>h1{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+
+}
+.container1>img{
+    margin: 20px;
+}
+.container1>p{
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+}
+.container1>span{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background-image: url('pink-roses.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2>span{
+    font-size: 64px;
+    color: black;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.cont3>span{
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    
+}
+.container3>img{
+    height: 70vh;
+}
+.cont4{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    
+    background-color: pink;
+}
+.cont4>p{
+    line-height: 30px;
+}
+.cont5{
+    background-color: lightcoral;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.cont5>span:nth-child(1){
+    margin: 40px;
+    font-size: 40px;
+    line-height: 10px;
+}
+.cont5>span:nth-child(2){
+    font-size: 20px;
+}
+.cont6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    height: 20%;
+}
+.cont6>span:last-child{
+    background-color: pink;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.cont6>span:last-child:hover{
+    background-color: rgb(224, 130, 146);
+}
