@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+#about{
+    /* opacity: 0.5; */
+    background-image: url('./images/gallery-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    text-shadow: 2px 2px gray;
+}
+#menu{
+    margin-top: 3%;
+    background-image: url('./images/gallery-3.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h3{
+    color: black;
+}
+#menu>h1{
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #f0e5cf;
+}
+
+section#home img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+
+section#about blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    width: 60%;
+}
+
+section#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#menu ul li {
+    /* background-color: #f8f8f8; */
+    
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section#gallery .gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#gallery .gallery-images img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
